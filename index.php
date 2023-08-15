@@ -1,9 +1,5 @@
 <?php
-/*
-ارائه شده توسط ایلیاتیم @EliyaTM
-خرید هاست پرسرعت محصوص میدلاین:
-HostEliya.ir
-*/
+
 error_reporting(0);
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
@@ -13,7 +9,7 @@ if (!file_exists('Config.json')) {
 }
 define('MADELINE_BRANCH', 'deprecated');
 include "madeline.php";
-	function closeConnection($message = 'in running @EliyaTM ')
+	function closeConnection($message = 'in running @HackerDracula')
 {
     if (php_sapi_name() === 'cli' || isset($GLOBALS['exited'])) {
         return;
@@ -92,8 +88,3 @@ $msg_id = $update['update']['message']['id'];
 }
 }
 }
-/*
-ارائه شده توسط ایلیاتیم @EliyaTM
-خرید هاست پرسرعت محصوص میدلاین:
-HostEliya.ir
-*/
