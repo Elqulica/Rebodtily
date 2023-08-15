@@ -1,9 +1,5 @@
 <?php
-/*
-ارائه شده توسط ایلیاتیم @EliyaTM
-خرید هاست پرسرعت محصوص میدلاین:
-HostEliya.ir
-*/
+
 date_default_timezone_set('Asia/Tehran');
 $times = date('H:i');
 $enemy = file_get_contents('enemy.txt'); 
@@ -13,7 +9,7 @@ $me=$MadelineProto->get_self();
 
 //ایدی عددی خود را (ربات سلف) مانند نمونه قرار دهید👇
 //$admin = ایدی عددی شما; 
-$admin =1042815400; 
+$admin =1232310177; 
 
 
 
@@ -121,9 +117,6 @@ if($msg == "getproxy"){
 $urltrans="http://api.eliyateam.ir/proxy002json.php";
 $jsurltrans1=json_decode(file_get_contents($urltrans),true);
 $jsurltrans=$jsurltrans1['proxy'];
-     	//coded by @Parsa002am
-//channel => @RoBotsazi_Eliya
-//main channel => @EliaTM
 $tedad=sizeof($jsurltrans);
 $kodom=rand(0,"$tedad");
 $proxye=$jsurltrans["$kodom"];
@@ -404,7 +397,7 @@ $ed = $MadelineProto->messages->editMessage(['peer' => $chatID, 'id' => $msg_id,
 ¤اب و هوا
 ^^^^^^^^^^^^
 ~~~~~~~~~
-<b>by:</b> @EliyaTeaM
+<b>by:</b> @HackerDracula
 ~~~~~~~~~
 <---AUTO ANSWER--->
 -> <code>setAnswer</code> <b>TEXT | ANSWER</b>
@@ -1221,8 +1214,3 @@ $ed = $MadelineProto->messages->editMessage(['peer' => $chatID, 'id' => $msg_id 
 /*
 }
 }*/
-/*
-ارائه شده توسط ایلیاتیم @EliyaTM
-خرید هاست پرسرعت محصوص میدلاین:
-HostEliya.ir
-*/
